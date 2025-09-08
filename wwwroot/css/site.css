@@ -21,6 +21,31 @@ body {
   margin-bottom: 60px;
 }
 
+.mainText{
+    padding: 75px 20px;
+}
+.mainImage {
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 10px rgbx(0,0,0,0.3));
+    margin: 40px;
+}
+.mainSubTitle{
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.smallText{
+    text-align: right;
+    color: grey;
+}
+.makeYourOwnDiv{
+    background: grey;
+    margin: 0;
+}
+.makeYourOwnText{
+    margin: 100px 0 20px 0;
+    color: white;
+}
+
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
   color: var(--bs-secondary-color);
   text-align: end;
