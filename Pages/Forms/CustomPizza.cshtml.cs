@@ -20,11 +20,11 @@ namespace RazorPizzaShop.Pages.Forms
             if (Pizza.TomatoSauce) PizzaPrice += 1;
             if (Pizza.WhiteSauce) PizzaPrice += 1;
             if (Pizza.Cheese) PizzaPrice += 1;
-            if (Pizza.Peperoni) PizzaPrice += 1;
+            if (Pizza.Pepperoni) PizzaPrice += 1;
             if (Pizza.Ham) PizzaPrice += 1;
             if (Pizza.Mushroom) PizzaPrice += 1;
             if(Pizza.ItalianSausage) PizzaPrice += 1;
-            if (Pizza.Pinapple) PizzaPrice += 10;
+            if (Pizza.Pineapple) PizzaPrice += 10;
             if (Pizza.Beef) PizzaPrice += 1;
             if (Pizza.Tuna) PizzaPrice += 1;
 

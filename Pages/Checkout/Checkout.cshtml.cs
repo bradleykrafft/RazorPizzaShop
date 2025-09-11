@@ -8,7 +8,6 @@ namespace RazorPizzaShop.Pages.Checkout
     {
         public string PizzaName { get; set; }
         public float PizzaPrice   { get; set; }
-
         public string ImageTitle { get; set; }
 
         public void OnGet()

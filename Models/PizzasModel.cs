@@ -8,9 +8,9 @@
         public bool TomatoSauce {  get; set; }
         public bool WhiteSauce {  get; set; }
         public bool Cheese { get; set; }
-        public bool Peperoni { get; set; }
+        public bool Pepperoni { get; set; }
         public bool Ham { get; set; }
-        public bool Pinapple { get; set; }
+        public bool Pineapple { get; set; }
         public bool ItalianSausage { get; set; }
         public bool Mushroom { get; set; }
         public bool Beef { get; set; }
