@@ -16,7 +16,7 @@ namespace RazorPizzaShop.Pages
                 BasePrice = 2,
                 TomatoSauce = true,
                 Cheese = true,
-                FinalPrice = 4,
+                FinalPrice = Convert.ToSingle(6),
             },
             new PizzasModel()
             {
@@ -25,7 +25,7 @@ namespace RazorPizzaShop.Pages
                 BasePrice = 2,
                 TomatoSauce = true,
                 Cheese = true,
-                FinalPrice = 4,
+                FinalPrice = Convert.ToSingle(5),
             },
             new PizzasModel()
             {
@@ -36,7 +36,7 @@ namespace RazorPizzaShop.Pages
                 Cheese = true,
                 Pineapple = true,
                 Ham= true,
-                FinalPrice = 16,
+                FinalPrice = Convert.ToSingle(18),
             },
             new PizzasModel()
             {
@@ -46,7 +46,7 @@ namespace RazorPizzaShop.Pages
                 TomatoSauce = true,
                 Cheese = true,
                 Mushroom = true,
-                FinalPrice = 6,
+                FinalPrice = Convert.ToSingle(9),
             },
             new PizzasModel()
             {
@@ -58,7 +58,7 @@ namespace RazorPizzaShop.Pages
                 Ham=true,
                 Beef=true,
                 ItalianSausage=true,
-                FinalPrice = 8,
+                FinalPrice = Convert.ToSingle(8),
             },
             new PizzasModel()
             {
@@ -68,7 +68,7 @@ namespace RazorPizzaShop.Pages
                 TomatoSauce = true,
                 Cheese = true,
                 Mushroom = true,
-                FinalPrice = 6,
+                FinalPrice = Convert.ToSingle(5),
             },
             new PizzasModel()
             {
@@ -78,7 +78,7 @@ namespace RazorPizzaShop.Pages
                 TomatoSauce = true,
                 Cheese = true,
                 Pineapple = true,
-                FinalPrice = 6,
+                FinalPrice = Convert.ToSingle(6),
             },
             new PizzasModel()
             {
@@ -88,7 +88,7 @@ namespace RazorPizzaShop.Pages
                 WhiteSauce = true,
                 Cheese = true,
                 Tuna = true,
-                FinalPrice = 5,
+                FinalPrice = Convert.ToSingle(4),
             },
             new PizzasModel()
             {
@@ -99,7 +99,7 @@ namespace RazorPizzaShop.Pages
                 Cheese = true,
                 Mushroom = true,
                 Pineapple = true,
-                FinalPrice = 12,
+                FinalPrice = Convert.ToSingle(12),
             },
 
         };

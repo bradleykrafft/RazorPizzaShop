@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPizzaShop.Data;
-using RazorPizzaShop.Migrations;
 using RazorPizzaShop.Models;
 
 namespace RazorPizzaShop.Pages.Checkout
@@ -33,9 +32,9 @@ namespace RazorPizzaShop.Pages.Checkout
                 ImageTitle = "Create";
             }
 
-            RazorPizzaShop.Models.PizzaOrder pizzaOrder = new RazorPizzaShop.Models.PizzaOrder();
+            PizzaOrder pizzaOrder = new PizzaOrder();
             pizzaOrder.PizzaName = PizzaName;            
-            pizzaOrder.BasePrice = PizzaPrice;
+            pizzaOrder.BasePrice = Convert.ToSingle(PizzaPrice);
 
             _context.PizzaOrders.Add(pizzaOrder);
             _context.SaveChanges();

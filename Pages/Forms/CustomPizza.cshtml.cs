@@ -9,7 +9,7 @@ namespace RazorPizzaShop.Pages.Forms
         [BindProperty]
         public PizzasModel Pizza { get; set; }
         public string PizzaName { get; set; }
-        public float PizzaPrice { get; set; } 
+        public double PizzaPrice { get; set; } 
         public void OnGet()
         {
         }
