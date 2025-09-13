@@ -8,6 +8,7 @@ namespace RazorPizzaShop.Pages.Forms
     {
         [BindProperty]
         public PizzasModel Pizza { get; set; }
+        public string PizzaName { get; set; }
         public float PizzaPrice { get; set; } 
         public void OnGet()
         {
@@ -15,7 +16,7 @@ namespace RazorPizzaShop.Pages.Forms
 
         public IActionResult OnPost()
         {
-            PizzaPrice = Pizza.BasePrice;
+            PizzaPrice = Pizza.BasePrice;          
 
             if (Pizza.TomatoSauce) PizzaPrice += 1;
             if (Pizza.WhiteSauce) PizzaPrice += 1;
@@ -28,7 +29,7 @@ namespace RazorPizzaShop.Pages.Forms
             if (Pizza.Beef) PizzaPrice += 1;
             if (Pizza.Tuna) PizzaPrice += 1;
 
-            return RedirectToPage("/Checkout/Checkout", new {Pizza.PiazzaName, PizzaPrice});
+            return RedirectToPage("/Checkout/Checkout", new {Pizza.PizzaName, PizzaPrice});
 
         }
 

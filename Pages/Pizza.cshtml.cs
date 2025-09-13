@@ -12,7 +12,7 @@ namespace RazorPizzaShop.Pages
             new PizzasModel()
             {
                 ImageTitle = "Margerita",
-                PiazzaName = "Margerita",
+                PizzaName = "Margerita",
                 BasePrice = 2,
                 TomatoSauce = true,
                 Cheese = true,
@@ -21,7 +21,7 @@ namespace RazorPizzaShop.Pages
             new PizzasModel()
             {
                 ImageTitle = "Bolognese",
-                PiazzaName = "Bolognese",
+                PizzaName = "Bolognese",
                 BasePrice = 2,
                 TomatoSauce = true,
                 Cheese = true,
@@ -30,7 +30,7 @@ namespace RazorPizzaShop.Pages
             new PizzasModel()
             {
                 ImageTitle = "Hawaiian",
-                PiazzaName = "Hawaiian",
+                PizzaName = "Hawaiian",
                 BasePrice = 2,
                 TomatoSauce = true,
                 Cheese = true,
@@ -41,7 +41,7 @@ namespace RazorPizzaShop.Pages
             new PizzasModel()
             {
                 ImageTitle = "Carbonara",
-                PiazzaName = "Carbonara",
+                PizzaName = "Carbonara",
                 BasePrice = 2,
                 TomatoSauce = true,
                 Cheese = true,
@@ -51,7 +51,7 @@ namespace RazorPizzaShop.Pages
             new PizzasModel()
             {
                 ImageTitle = "MeatFeast",
-                PiazzaName = "MeatFeast",
+                PizzaName = "MeatFeast",
                 BasePrice = 2,
                 TomatoSauce = true,
                 Cheese = true,
@@ -63,7 +63,7 @@ namespace RazorPizzaShop.Pages
             new PizzasModel()
             {
                 ImageTitle = "Mushroom",
-                PiazzaName = "Mushroom",
+                PizzaName = "Mushroom",
                 BasePrice = 2,
                 TomatoSauce = true,
                 Cheese = true,
@@ -73,7 +73,7 @@ namespace RazorPizzaShop.Pages
             new PizzasModel()
             {
                 ImageTitle = "Pepperoni",
-                PiazzaName = "Pepperoni",
+                PizzaName = "Pepperoni",
                 BasePrice = 2,
                 TomatoSauce = true,
                 Cheese = true,
@@ -83,7 +83,7 @@ namespace RazorPizzaShop.Pages
             new PizzasModel()
             {
                 ImageTitle = "Seafood",
-                PiazzaName = "Seafood",
+                PizzaName = "Seafood",
                 BasePrice = 2,
                 WhiteSauce = true,
                 Cheese = true,
@@ -93,7 +93,7 @@ namespace RazorPizzaShop.Pages
             new PizzasModel()
             {
                 ImageTitle = "Vegetarian",
-                PiazzaName = "Vegetarian",
+                PizzaName = "Vegetarian",
                 BasePrice = 2,
                 TomatoSauce = true,
                 Cheese = true,

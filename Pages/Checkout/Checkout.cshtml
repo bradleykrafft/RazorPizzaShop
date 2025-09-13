@@ -6,16 +6,18 @@
     var imagePath = "~/Images/Pizzas/" + (Model.ImageTitle + ".png");
 }
 
-<h1>Review Order Then Click Submit</h1>
+<h1>Please Confirm Order Process Payment</h1>
 
 <div class="align-conten-center">
     <div class="col-3 mx-auto mb-5">
         
-        <p>Your Order: @Model.PizzaName </p>
-        <h2>Items</h2>
+        <p>Check Your Order Below</p>
+        <hr />      
+        
 
         <img src=@imagePath class="w-100" asp-append-version="true" />
-
+        <h3> @Model.PizzaName </h3>
+        <h4>Items:</h4>
         <p></p>
         <br />
         <p>Total Price: @Model.PizzaPrice</p>
